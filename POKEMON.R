@@ -108,15 +108,6 @@ whitelist=matrix(c(
 colnames(whitelist)=c("from","to")
 whitelist
 
-
-bnlearn::graphviz.plot(Dmodel_1, layout = "circo", shape = "ellipse", highlight = list(nodes = "type1",col = "tomato", fill = "orange"))
-
-bn.iamb <-iamb(dpokemon,whitelist = whitelist)
-bn.hmhc <-rsmax2(data, restrict = "mmpc",maximize = "hc",whitelist = whitelist)
-
-graphviz.plot(Dmodel_1, layout = "neato", shape = "ellipse", highlight = list(nodes = "type1",col = "tomato", fill = "orange"))
-bn.hmhc <-rsmax2(data, restrict = "mmpc",maximize = "hc",whitelist = whitelist)
-
 #Bootstrap in hc model_______________________________________________________________________
 set.seed(12)
 str.diff_hc = boot.strength(dpokemon, R = 400, algorithm = "hc",  cpdag = TRUE,
