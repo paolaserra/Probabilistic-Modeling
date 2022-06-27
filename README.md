@@ -6,5 +6,5 @@ Three different algorithms were implemented to perform this task: Hill-climbing,
 In the last part a final model is chosen and some estimations about conditional probabilities are performed.
 
 
-
+<img src="./final model.jpg">
 
