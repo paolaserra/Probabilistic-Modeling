@@ -7,4 +7,4 @@ In the last part a final model is chosen and some estimations about conditional 
 
 
 
-![Test Image 1] (https://github.com/paolaserra/Probabilistic-Modeling/blob/main/final%20model.png)
+
